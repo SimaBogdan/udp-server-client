@@ -8,7 +8,7 @@ server.bind(("127.0.0.1", 12345))
 clients = {} #clientii sunt salvati intr-un dictionar pentru usurinta sufletului meu
 client_queue = queue.Queue()
 
-ok = 1 #acest ok e doar pentru a printa startul serverului
+ok = 1  #acest ok e doar pentru a printa startul serverului
 
 #aceasta functie compara statusurile clientiilor/jucatoriilor, le atribuie punctele si declara castigatorul
 def compare_stats(client1, stats1, client2, stats2):
